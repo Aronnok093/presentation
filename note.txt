@@ -25,3 +25,61 @@ for researchers studying the genetic basis of various traits and diseases.
 GeneMANIA: GeneMANIA is a web-based tool that helps researchers analyze and interpret gene function and relationships. It integrates various data sources,
 including protein-protein interactions, co-expression, genetic interactions, pathways, and more, to generate networks of genes with similar functions or 
 shared characteristics. GeneMANIA assists in identifying candidate genes, functional annotations, and potential interactions for further investigation.
+
+
+Genome Variation (GWAS):
+Genome-Wide Association Studies (GWAS) are a type of study in genomics that aim to identify genetic variations associated with specific traits or diseases.
+GWAS analyze large sets of genetic data, typically from a diverse population, to identify single nucleotide polymorphisms (SNPs) or other genetic variants 
+that are statistically correlated with the trait of interest. GWAS have been instrumental in discovering genetic risk factors for a wide range of diseases 
+and traits, providing insights into the genetic basis of complex traits.
+
+Crowdsourcing:
+Crowdsourcing involves outsourcing tasks or gathering information from a large group of people, often through an online platform. In the context of machine 
+learning and genomics, crowdsourcing can be used to engage a community of individuals to contribute their expertise or annotations to large-scale projects. 
+Crowdsourcing can help accelerate data analysis, annotation, and curation processes by leveraging the collective intelligence and diverse perspectives of a crowd.
+
+Text Mining:
+Text mining refers to the process of extracting useful information and knowledge from textual data. In genomics and biomedical research, text mining techniques 
+are used to analyze and extract relevant information from scientific literature, clinical notes, and other text-based resources. Text mining can assist in tasks 
+such as literature review, information retrieval, entity recognition (e.g., identifying gene names or drug names), relationship extraction, and knowledge discovery from unstructured text.
+
+Network and Semantic Similarity-Based Algorithms:
+Network-based algorithms leverage the structure and connectivity of networks, such as protein-protein interaction networks or gene co-expression networks,
+to analyze and interpret genomic data. These algorithms use measures such as network centrality, clustering coefficients, or network propagation to identify 
+key genes, functional modules, or relationships between genes. Semantic similarity-based algorithms, on the other hand, quantify the similarity between
+concepts or entities based on their semantic properties. In genomics, semantic similarity measures can be used to compare gene annotations, functional 
+terms, or phenotypic descriptions to infer similarities or relationships between genes or diseases.
+
+These methods and approaches play important roles in genomics research, enabling the analysis of genomic data, the discovery of genetic associations, 
+the integration of heterogeneous information, and the extraction of knowledge from various sources.
+
+
+Network-based algorithms analyze the structure and connectivity of networks (e.g., protein-protein interactions) to identify key genes or functional modules.
+Semantic similarity-based algorithms quantify similarities between genomic entities (e.g., genes, diseases) based on their semantic properties to infer relationships or similarities.
+These algorithms aid in understanding gene function, identifying disease associations, and integrating diverse genomic data for knowledge discovery.
+
+
+
+
+Relevant General Datasets:
+1. DisGeNet: DisGeNet is a comprehensive database that integrates information on gene-disease associations from various sources.
+It provides a valuable resource for studying the genetic basis of diseases and exploring gene-disease relationships.
+
+2. OMIM (Online Mendelian Inheritance in Man): OMIM is a catalog of human genes and genetic disorders. It provides detailed
+information on the phenotypic and molecular characteristics of various genetic conditions, facilitating research on genetic diseases.
+
+3. BioPortal: BioPortal is a repository of biomedical ontologies and data resources. It offers access to a wide range of
+ontologies, including those related to genes, diseases, pathways, and more. BioPortal can be utilized for data integration, semantic annotation, and knowledge discovery.
+
+Benchmark Datasets:
+1. TUDataset: TUDataset is a collection of benchmark datasets for graph classification and node classification tasks. It
+covers a variety of domains, including social networks, bioinformatics, and chemistry. TUDataset is commonly used for 
+evaluating and comparing the performance of graph-based machine learning algorithms.
+
+2. Human Disease Network Dataset: The Human Disease Network Dataset is a network-based dataset that captures the 
+relationships between human diseases. It represents diseases as nodes and includes edges representing disease-disease 
+associations based on shared genes, phenotypic similarities, or other criteria. This dataset is often used for studying 
+disease networks and exploring disease relationships.
+
+These datasets provide valuable resources for researchers working in genomics, disease genetics, and network analysis. 
+They enable the exploration of gene-disease associations, investigation of disease networks, development of machine learning algorithms, and evaluation of performance in various tasks.
