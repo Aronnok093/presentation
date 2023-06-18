@@ -1,1 +1,27 @@
+TensorFlow: As mentioned earlier, TensorFlow is an open-source machine learning framework developed by Google. It provides a wide range of 
+tools and libraries for building and deploying machine learning models, with a focus on deep learning. TensorFlow offers a flexible and scalable
+platform for developing various types of machine learning algorithms and models.
 
+Keras: Keras is a high-level neural network API that provides a user-friendly interface for building and training deep learning models. It can be
+used as a standalone library, but it is also integrated into TensorFlow as its official high-level API. Keras simplifies the process of defining 
+neural network architectures by providing modular building blocks and abstracting away low-level implementation details.
+
+Scikit-learn: Scikit-learn is a popular machine learning library in Python. It provides a wide range of tools and algorithms for tasks such as 
+classification, regression, clustering, and dimensionality reduction. Scikit-learn is built on top of other scientific libraries, such as NumPy 
+and SciPy, and it offers a consistent API and a wealth of functionality for traditional machine learning tasks.
+
+XGBoost: XGBoost (Extreme Gradient Boosting) is an open-source library that focuses on gradient boosting algorithms. It is known for its efficiency 
+and performance in handling structured data and has gained popularity in various machine learning competitions. XGBoost supports both classification 
+and regression tasks and provides additional advanced features like regularization and parallel processing.
+
+DeepVariant: DeepVariant is a tool developed by Google for variant calling in genomic sequencing data. It uses deep learning techniques to identify 
+genetic variations from DNA sequencing data with high accuracy. DeepVariant has been widely used in genomics research and has demonstrated significant 
+improvements in identifying genetic variations compared to traditional methods.
+
+Genetic Association Database (GAD): The Genetic Association Database is a comprehensive repository of genetic association studies. It collects and
+curates information about genetic variants and their associations with different traits, diseases, and phenotypes. GAD provides a valuable resource
+for researchers studying the genetic basis of various traits and diseases.
+
+GeneMANIA: GeneMANIA is a web-based tool that helps researchers analyze and interpret gene function and relationships. It integrates various data sources,
+including protein-protein interactions, co-expression, genetic interactions, pathways, and more, to generate networks of genes with similar functions or 
+shared characteristics. GeneMANIA assists in identifying candidate genes, functional annotations, and potential interactions for further investigation.
