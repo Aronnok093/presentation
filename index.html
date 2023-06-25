@@ -17,33 +17,6 @@
 			top: 0;
 			left: 0;
 		}
-		#cat {
-			position: absolute;
-			top: 30%;
-			left: 8%;
-			transform: translate(-50%, -50%);
-			animation: move-cat 2s linear infinite;
-			width: 200px;
-			height: 200px;
-		}
-		
-		@keyframes move-cat {
-			0% {
-				transform: translate(-50%, -50%) rotate(0deg);
-			}
-			25% {
-				transform: translate(-50%, -50%) rotate(20deg);
-			}
-			50% {
-				transform: translate(-50%, -50%) rotate(0deg);
-			}
-			75% {
-				transform: translate(-50%, -50%) rotate(-20deg);
-			}
-			100% {
-				transform: translate(-50%, -50%) rotate(0deg);
-			}
-		}
 	</style>
 </head>
 <body>
@@ -52,19 +25,6 @@
 	</div>
 
 	<iframe src="https://docs.google.com/presentation/d/1-vRyAI-ANuPRRWB3JVbFSLtEVYLyfWLB/edit?usp=sharing&ouid=112321018672356052308&rtpof=true&sd=true" frameborder="0" width="100%" height="900" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-        <img id="cat" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Moving Cat">
 	<!--<a href="https://sites.google.com/aust.edu/usartcommunication/home?authuser=0">Click</a> -->
-	<script type="text/javascript">
-		var progress = document.getElementById('progress');
-
-		window.addEventListener('message', function(e) {
-			if (e.data == 'slide-change') {
-				var slideNumber = e.origin.split('/').pop();
-				var totalSlides = document.querySelector('.punch-viewer .punch-viewer-slide-wrapper:last-child').dataset.slideIndex;
-				var percentage = (slideNumber / totalSlides) * 100;
-				progress.style.width = percentage + '%';
-			}
-		}, false);
-	</script>
 </body>
 </html>
